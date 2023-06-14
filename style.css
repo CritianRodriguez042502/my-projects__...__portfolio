@@ -60,7 +60,7 @@ main {
 
 .animated-image {
     animation-name: moveImage;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
