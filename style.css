@@ -57,6 +57,27 @@ main {
     width: 300px;
 }
 
+
+.animated-image {
+    animation-name: moveImage;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes moveImage {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
 .img__computador {
     width: 300px;
     position: relative;
