@@ -53,14 +53,32 @@ main {
     background-color: rgb(241, 237, 229);
 }
 
+.titulo {
+    font-size: 2em;
+    background: url(liquid-effect.gif);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.titulo::first-letter {
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 .main__col-img {
     width: 300px;
 }
 
 
 .animated-image {
+    width: 230px; 
+    margin-top:20px; 
+    box-shadow: 2px 1px 30px rgb(0, 0, 0); 
+    border-radius: 50%;
     animation-name: moveImage;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
@@ -95,16 +113,9 @@ main {
 }
 
 
-.titulo {
-    font-size:35px;
-}
 
-.titulo::first-letter {
-    font-size: 55px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
 
-}
+
 
 /* Descripcion de habilidades*/
 
