@@ -54,18 +54,14 @@ main {
 }
 
 .titulo {
-    font-size: 2em;
-    background: url(liquid-effect.gif);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    font-size:35px;
 }
 
 
 .titulo::first-letter {
-    font-size: 65px;
+    font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 .main__col-img {
     width: 300px;
