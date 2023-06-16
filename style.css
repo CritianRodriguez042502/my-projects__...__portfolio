@@ -36,7 +36,7 @@ body {
 
 .icon__nav {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     }
 
 .icon__li {
@@ -65,6 +65,7 @@ main {
 
 .main__col-img {
     width: 300px;
+    
 }
 
 
@@ -72,6 +73,8 @@ main {
     width: 230px; 
     margin-top:20px; 
     box-shadow: 2px 1px 30px rgb(0, 0, 0); 
+    background: linear-gradient(rgb(139, 117, 117), rgb(32, 31, 31));
+    border: 3px double gray;
     border-radius: 50%;
     animation-name: moveImage;
     animation-duration: 5s;
@@ -84,7 +87,7 @@ main {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
+      transform: translateY(-22px);
     }
     100% {
       transform: translateY(0);
@@ -208,7 +211,8 @@ header {
 
 .col__header:hover {
     color: white;
-    background-color: black
+    background: linear-gradient(-50deg,black 65%, blue );
+
 }
 
 
@@ -238,6 +242,7 @@ article {
     display: inline-block;
     background-image: url("https://images.unsplash.com/photo-1581299327801-faeb40ea459e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGV4dHVyYSUyMGF6dWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
     color: white;
+    border-radius: 10px;
     padding: 20px 70px;
     border: 2px double rgb(209, 209, 209);
     margin-top: -42px; 
@@ -418,6 +423,11 @@ footer {
 
 
 @media screen and (max-width:767px) {
+
+    .icon__nav {
+        display: none;
+        }
+    
     
     .img__computador {
         margin-bottom: -7px;
