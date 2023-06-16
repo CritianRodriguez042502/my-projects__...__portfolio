@@ -203,7 +203,7 @@ header {
 .col__header {
     padding: 18px 25px;
     border: 1px solid rgb(142, 138, 138);
-    transition: background-color .1s
+    
 }
 
 .col__header:hover {
@@ -257,20 +257,6 @@ article {
 }
 
 .img-project:hover {
-    width: 108%;
-    height: 108%;
-}
-
-
-.img-project_1 {
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    padding: 1px 9px;
-    transition: box-shadow .3s, width .2s, height .2s;
-}
-
-.img-project_1:hover {
     width: 108%;
     height: 108%;
 }
