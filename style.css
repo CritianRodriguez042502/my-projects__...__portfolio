@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: rgb(233, 222, 200);
+    background-color: rgb(199, 199, 198);
     margin: 0px;
 }
 
 /* Navegacion */
 
 .custom__nav {
-    background-color: rgb(36, 34, 34);
+    background: rgb(22, 22, 22);
     padding: 30px;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .custom__a {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -55,7 +55,6 @@ body {
 
 main {
     margin-top: 20px;
-    background-color: rgb(241, 237, 229);
 }
 
 .titulo {
@@ -68,6 +67,7 @@ main {
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .main__col-img {
     width: 300px;
@@ -104,7 +104,7 @@ main {
 .img__computador {
     width: 300px;
     position: relative;
-    top: 40px;
+    top: 35px;
 }
 
 
@@ -119,14 +119,11 @@ main {
 
 
 
-
-
-
 /* Descripcion de habilidades*/
 
 section {
     margin-top: 30px;
-    background-color: rgb(25, 23, 23);
+    background: black;
 }
 
 
@@ -153,7 +150,7 @@ section {
 }
 
 .texto__lenguaje-frontend::first-letter {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .lenguajes__columna-frontend {
@@ -172,7 +169,7 @@ section {
 }
 
 .texto__lenguaje-backend::first-letter {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .lenguajes__columna-backend {
@@ -190,7 +187,7 @@ section {
 }
 
 .lenguaje__img:hover {
-    width:14%;
+    width:13%;
 }
 
 
@@ -200,8 +197,8 @@ header {
 
 
 .icons__header {
-    background-color: black;
-    color: rgb(92, 88, 215);
+    background-color: rgb(46, 43, 43);
+    color: rgb(224, 219, 219);
     font-size: 37px;
     border-radius: 50px;
     padding: 7px 11px;
@@ -211,13 +208,14 @@ header {
 
 .col__header {
     padding: 18px 25px;
-    border: 1px solid rgb(142, 138, 138);
+    border: 2px double rgb(136, 127, 127);
+    border-radius: 20px;
     
 }
 
 .col__header:hover {
     color: white;
-    background: linear-gradient(-50deg,black 65%, blue );
+    background: linear-gradient(-50deg,rgb(75, 73, 73) 65%, rgb(131, 131, 138) );
 
 }
 
@@ -236,17 +234,18 @@ header {
 }
 
 
+
 article {
     margin-top: 100px;
     margin-bottom: 50px;
-    background-image: url("https://img.freepik.com/vector-gratis/fondo-azul-modelo-grunge_1409-1359.jpg?w=360");
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
     padding-bottom: 50px;
 }
 
 
 .article__titulo-projects {
     display: inline-block;
-    background-image: url("https://images.unsplash.com/photo-1581299327801-faeb40ea459e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGV4dHVyYSUyMGF6dWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-image: url("https://img.freepik.com/fotos-premium/textura-grunge-sobre-fondo-oscuro_1258-14137.jpg");
     color: white;
     border-radius: 10px;
     padding: 20px 70px;
@@ -300,7 +299,7 @@ aside {
 
 
 footer {
-    background-color: black;
+    background: black;
 }
 
 
@@ -375,11 +374,11 @@ footer {
     font-size: 30px;
     padding: 3px 10px;
     border-radius: 20px;
+    margin: 1px 3px;
     transition: font-size .2s, border .1s;
 }
 
 .icons__footer:hover {
-    font-size: 33px;
     border: 2px solid white;
 }
 
@@ -433,6 +432,7 @@ footer {
 
 @media screen and (max-width:767px) {
 
+    /* Navegacion */
     .icon__nav {
         display: none;
         }
@@ -445,7 +445,10 @@ footer {
 
     .descripcion_mia {
         padding: 35px 10px;
+        position: relative;
+        top: 20px;
     }
+
 
     .texto__lenguaje-frontend {
         color: white;
@@ -483,6 +486,20 @@ footer {
 
     header {
         margin-top: 1px;
+    }
+
+    .col__header {
+        border: 1px double rgb(136, 127, 127);
+        border-radius: 0px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .icons__header {
+        background-color: black;
+        font-size: 37px;
+        border-radius: 50px;
+        padding: 7px 11px;
     }
 
 
