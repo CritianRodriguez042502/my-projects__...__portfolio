@@ -146,7 +146,7 @@ section {
     font-size: 30px;
     font-weight: bold;
     text-align: start;
-    margin-left: 180px;
+    margin-left: 100px;
 }
 
 .texto__lenguaje-frontend::first-letter {
@@ -164,7 +164,7 @@ section {
     font-size: 30px;
     font-weight: bold;
     text-align: end;
-    margin-right: 90px;
+    margin-right: 60px;
     margin-top: 15px;
 }
 
