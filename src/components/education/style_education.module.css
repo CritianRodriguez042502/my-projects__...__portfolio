@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+:root {
+  /* font size */
+  --text-h1: 30px;
+  --text-h2: 23px;
+  --text-p: 17px;
+
+  /* Color of letters*/
+  --text-color-on-primary-background: #333333;
+  --text-color-on-secondary-background: #ffffff;
+
+  /* font family titles */
+  --font-family-title: "Kalam", cursive;
+
+  /* backgrounds */
+  --main-background-color: #f2f2f2;
+  --secondary-background-color: #333333;
+  --tertiary-background-color: #3498db;
+}
+
+/*-----------------------------------*/
+/* Media screen mobile */
+.containerEducation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.squareContainer {
+  width: 100%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin: 0px 20px 10px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.title {
+  font-size: var(--text-h2);
+  margin-bottom: 10px 0px 10px 0px;
+}
+
+.text {
+  padding: 0px 60px;
+  font-size: var(--text-p);
+}
+
+/*-----------------------------------*/
+/* Media screen Desktop*/
+@media screen and (min-width: 950px) {
+  .containerEducation {
+    display: flex;
+    justify-content: center;
+    flex-direction: initial;
+    align-items: center;
+    margin-top: initial;
+  }
+
+  .squareContainer {
+    width: 350px;
+    height: 400px;
+    margin: 100px 20px 10px 20px;
+    transition: all 0.3s;
+    -webkit-transition: background 0.3s;
+  }
+
+  .squareContainer:hover {
+    color: var(--main-background-color);
+    background: var(--secondary-background-color);
+  }
+
+  .text {
+    padding: initial;
+  }
+}

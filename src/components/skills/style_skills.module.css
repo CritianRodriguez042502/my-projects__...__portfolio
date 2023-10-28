@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+:root {
+  /* font size */
+  --text-h1: 30px;
+  --text-h2: 23px;
+  --text-p: 17px;
+
+  /* Color of letters*/
+  --text-color-on-primary-background: #333333;
+  --text-color-on-secondary-background: #ffffff;
+
+  /* font family titles */
+  --font-family-title: "Kalam", cursive;
+
+  /* backgrounds */
+  --main-background-color: #f2f2f2;
+  --secondary-background-color: #333333;
+  --tertiary-background-color: #3498db;
+}
+
+/*-----------------------------------*/
+/* Media screen mobile */
+
+.containerSkills {
+  padding: 45px 0px 30px 0px;
+  background: var(--secondary-background-color);
+}
+
+.text {
+  font-size: var(--text-p);
+  text-align: center;
+  color: var(--text-color-on-secondary-background);
+  padding: 50px 60px;
+}
+
+.frontendParentContainer {
+  margin: 0px 0px 30px 0px;
+  border-bottom: 3px solid white;
+}
+
+.containerIconsFrontend {
+  text-align: center;
+  padding: 0px 0px 7px 0px;
+}
+
+.containerIconsFrontend h1 {
+  color: var(--text-color-on-secondary-background);
+  font-size: var(--text-h2);
+  margin: 0px 0px 10px 0px;
+}
+
+.backendParentContainer {
+  margin: 0px 0px 30px 0px;
+  border-bottom: 3px solid white;
+}
+
+.containerIconsBackend {
+  text-align: center;
+  margin: 0px 0px 7px 0px;
+  padding: 0px 0px 7px 0px;
+}
+
+.containerIconsBackend h1 {
+  font-size: var(--text-h2);
+  color: var(--text-color-on-secondary-background);
+  margin: 0px 0px 10px 0px;
+}
+
+.containerIconsGit {
+  padding: 0px 0px 20px 0px;
+  color: var(--text-color-on-secondary-background);
+  text-align: center;
+}
+
+.icon {
+  width: 16%;
+  max-width: 90px;
+  margin: 0px 10px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/*-----------------------------------*/
+/* Media screen Desktop*/
+@media screen and (min-width: 900px) {
+  .containerSkills {
+    display: flex;
+    align-items: center;
+    padding: 80px 0px 50px 0px;
+  }
+
+  .text {
+    width: 25%;
+    font-size: var(--text-p);
+    padding: 0px 80px;
+  }
+
+  .containerIcons {
+    width: 100%;
+  }
+
+  .frontendParentContainer {
+    display: flex;
+  }
+
+  .containerIconsFrontend h1 {
+    text-align: center;
+  }
+
+  .backendParentContainer {
+    display: flex;
+    justify-content: end;
+  }
+
+  .containerIconsBackend {
+    margin-right: 40px;
+  }
+
+  .containerIconsBackend h1 {
+    text-align: center;
+  }
+
+  .icon {
+    width: 90px;
+  }
+}

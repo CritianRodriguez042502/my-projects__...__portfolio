@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+:root {
+  /* font size */
+  --text-h1: 30px;
+  --text-h2: 23px;
+  --text-p: 17px;
+
+  /* Color of letters*/
+  --text-color-on-primary-background: #333333;
+  --text-color-on-secondary-background: #ffffff;
+
+  /* font family titles */
+  --font-family-title: "Kalam", cursive;
+
+  /* backgrounds */
+  --main-background-color: #f2f2f2;
+  --secondary-background-color: #333333;
+  --tertiary-background-color: #3498db;
+}
+
+/*-----------------------------------*/
+/* Media screen mobile */
+.containerProjects {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.containerTitle {
+  margin-top: 90px;
+}
+
+.containerTitle h1 {
+  font-size: var(--text-h1);
+  color: var(--text-color-on-primary-background);
+}
+
+/* Grid container para las imágenes */
+.containerProjects .containerProjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+  margin-top: 20px;
+}
+
+/* Estilos para el contenedor de cada imagen */
+.containerProjects .containerImg {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+/* Estilos para las imágenes */
+.containerProjects .containerImg img {
+  width: 100%;
+}
+
+.views {
+  width: 100%;
+  height: 100%;
+}
+
+/*-----------------------------------*/
+/* Media screen Desktop*/
+@media screen and (min-width: 750px) {
+  .containerProjects .containerImg:hover {
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    -moz-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    -o-transform: translateY(-7px);
+  }
+}
