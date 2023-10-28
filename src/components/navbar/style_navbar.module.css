@@ -50,7 +50,7 @@
 
 .iconMain {
   font-size: var(--text-h1);
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .containerFixed {
@@ -101,7 +101,7 @@
   }
 
   .iconMain {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .containerLinks {

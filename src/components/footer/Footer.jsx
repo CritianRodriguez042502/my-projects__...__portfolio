@@ -6,6 +6,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import style from "./style_footer.module.css";
 
 export function Footer() {
+  
   return (
     <main id="footer">
       <section className={style.containerContact}>

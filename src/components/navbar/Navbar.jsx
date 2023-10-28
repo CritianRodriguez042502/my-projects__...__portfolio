@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FiAnchor } from "react-icons/fi";
+import { DiJsBadge } from "react-icons/di";
 import { AiOutlineMenu } from "react-icons/ai";
 import style from "./style_navbar.module.css";
 
@@ -28,7 +28,7 @@ export function Navbar() {
             <AiOutlineMenu />
           </div>
           <div className={style.iconMain}>
-            <FiAnchor />
+            <DiJsBadge />
           </div>
         </aside>
 
@@ -52,7 +52,7 @@ export function Navbar() {
 
       <section className={style.containerNavbarDesktop}>
         <div className={style.iconMain}>
-          <FiAnchor />
+          <DiJsBadge />
         </div>
         <nav className={style.containerLinks}>
           <a className={style.links} href="#about_me">

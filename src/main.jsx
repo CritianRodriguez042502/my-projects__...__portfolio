@@ -12,6 +12,9 @@ import {
   Footer,
 } from "./components/index";
 
+// Import animation
+
+
 const router = reactDoom.createRoot(document.getElementById("root"));
 
 router.render(
