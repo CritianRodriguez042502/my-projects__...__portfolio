@@ -1,3 +1,8 @@
+import project from "../../assents/images/projects/projectDefault.png"
+import impactX from "../../assents/images/projects/IMPACT-X.png"
+import bbcNews from "../../assents/images/projects/BBC-NEWS.png"
+import galery from "../../assents/images/projects/GALERY.png"
+import calculator from "../../assents/images/projects/CALCULATOR.png"
 import style from "./style_projects.module.css";
 
 export function Projects() {
@@ -18,28 +23,28 @@ export function Projects() {
             <img
               onClick={navigateImpactX}
               className={style.Img}
-              src="https://assets.genial.ly/s3fs-public/images/id112.jpg?VersionId=EXhsnbTHzgZ6nXIk2kRszmXdT1gnDl9d"
+              src={impactX}
               alt="img"
             />
           </div>
           <div className={style.containerImg}>
             <img
               className={style.Img}
-              src="https://assets.genial.ly/s3fs-public/images/id112.jpg?VersionId=EXhsnbTHzgZ6nXIk2kRszmXdT1gnDl9d"
+              src={bbcNews}
               alt="img"
             />
           </div>
           <div className={style.containerImg}>
             <img
               className={style.Img}
-              src="https://assets.genial.ly/s3fs-public/images/id112.jpg?VersionId=EXhsnbTHzgZ6nXIk2kRszmXdT1gnDl9d"
+              src={galery}
               alt="img"
             />
           </div>
           <div className={style.containerImg}>
             <img
               className={style.Img}
-              src="https://assets.genial.ly/s3fs-public/images/id112.jpg?VersionId=EXhsnbTHzgZ6nXIk2kRszmXdT1gnDl9d"
+              src={calculator}
               alt="img"
             />
           </div>

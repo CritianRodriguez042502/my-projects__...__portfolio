@@ -32,7 +32,7 @@
   width: 100%;
   top: 0;
   background: var(--main-background-color);
-  opacity : 0.8;
+  opacity: 0.8;
   box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,7 +40,6 @@
   display: flex;
   justify-content: space-between;
   padding: 35px 8% 5px 8%;
-  
 }
 
 .iconClose {
@@ -119,10 +118,17 @@
     color: var(--text-color-on-primary-background);
     font-size: 17px;
     margin: 0px 10px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+    -webkit-transition: border-bottom 0.3s ease;
+    -moz-transition: border-bottom 0.3s ease;
+    -ms-transition: border-bottom 0.3s ease;
+    -o-transition: border-bottom 0.3s ease;
   }
 
   .links:hover {
     color: black;
+    border-bottom: 3px solid var(--text-color-on-primary-background);
   }
 
   .links:active {
