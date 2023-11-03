@@ -1,4 +1,3 @@
-import project from "../../assents/images/projects/projectDefault.png";
 import impactX from "../../assents/images/projects/IMPACT-X.png";
 import bbcNews from "../../assents/images/projects/BBC-NEWS.png";
 import galery from "../../assents/images/projects/GALERY.png";

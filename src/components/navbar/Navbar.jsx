@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DiJsBadge } from "react-icons/di";
 import { AiOutlineMenu } from "react-icons/ai";
 import style from "./style_navbar.module.css";
 
 export function Navbar() {
   const [apperance, setApperance] = useState("none");
+
+  useEffect(function() {
+    const url = "https://server-agency-1203.onrender.com"
+    fetch(url)
+  },[])
 
   const onClickApperanceNavbar = (e) => {
     if (apperance === "none") {
