@@ -8,5 +8,6 @@ body {
   margin: 0px;
   font-family: 'Playpen Sans', cursive;
   box-sizing: border-box;
-  background: var(--main-background-color)
+  background: var(--main-background-color);
+  overflow-x: hidden;
 }

@@ -1,6 +1,7 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import reactDoom from "react-dom/client";
-import "./styles/style.css"
+import "./styles/style.css";
 
 // import Components
 import {
@@ -12,18 +13,27 @@ import {
   Footer,
 } from "./components/index";
 
-// Import animation
+const App = () => {
+  const [view, setView] = useState(0);
 
+  useEffect(function () {
+    setTimeout(() => {
+      setView(1);
+    }, 1000);
+  }, []);
+  
+  return (
+    <article style={{ opacity: view }}>
+      <Navbar />
+      <AboutMe />
+      <Skills />
+      <Education />
+      <Projects />
+      <Footer />
+    </article>
+  );
+};
 
-const router = reactDoom.createRoot(document.getElementById("root"));
-
-router.render(
-  <>
-    <Navbar />
-    <AboutMe />
-    <Skills />
-    <Education />
-    <Projects />
-    <Footer />
-  </>
-);
+const router = reactDoom
+  .createRoot(document.getElementById("root"))
+  .render(<App />);
