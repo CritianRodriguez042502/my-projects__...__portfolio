@@ -19,9 +19,9 @@ const App = () => {
   useEffect(function () {
     setTimeout(() => {
       setView(1);
-    }, 1000);
+    }, 250);
   }, []);
-  
+
   return (
     <article style={{ opacity: view }}>
       <Navbar />
@@ -34,6 +34,4 @@ const App = () => {
   );
 };
 
-const router = reactDoom
-  .createRoot(document.getElementById("root"))
-  .render(<App />);
+reactDoom.createRoot(document.getElementById("root")).render(<App />);
