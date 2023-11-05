@@ -46,12 +46,9 @@
   height: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   cursor: pointer;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+  transition: transform 0.5s;
 }
+
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
@@ -71,10 +68,6 @@
 
   .containerImg img:hover {
     transform: translateY(-7px);
-    -webkit-transform: translateY(-7px);
-    -moz-transform: translateY(-7px);
-    -ms-transform: translateY(-7px);
-    -o-transform: translateY(-7px);
   }
 }
 
