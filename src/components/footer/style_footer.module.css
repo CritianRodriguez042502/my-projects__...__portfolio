@@ -24,9 +24,10 @@
 
 /* Section contact*/
 .containerContact {
+  margin: 0 auto;
   text-align: center;
   margin: 80px 0px 0px 0px;
-  padding: 30px 0px;
+  padding: 15% 0px;
   background-color: rgb(39, 39, 214);
 }
 
@@ -39,7 +40,7 @@
 .containerContact p {
   color: var(--text-color-on-secondary-background);
   font-size: var(--text-p);
-  padding: 10px 40px 0px 40px;
+  padding: 10px 10% 0px 10%;
   margin-bottom: 20px;
 }
 
@@ -79,6 +80,7 @@
 .containerFooter p {
   font-size: var(--text-p);
   margin-top: 10px;
+  padding: 0px 5%;
 }
 
 .containerFooter .containerIcons {

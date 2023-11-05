@@ -30,8 +30,8 @@
 }
 
 .imgCristian {
-  width: 60%;
-  max-width: 300px;
+  width: 62%;
+  max-width: 310px;
   border: 5px double black;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -41,6 +41,7 @@
 }
 
 .aboutMe {
+  width: 100%;
   margin: 10px 0px 0px 0px;
   text-align: center;
   font-size: var(--text-h1);
@@ -49,6 +50,7 @@
 .description {
   margin: 10px 0px 0px 0px;
   font-size: var(--text-p);
+  text-align: center;
 }
 
 .imgDesktops {

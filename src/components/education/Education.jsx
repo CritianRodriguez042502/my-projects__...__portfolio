@@ -6,6 +6,7 @@ import style from "./style_education.module.css";
 export function Education() {
   return (
     <main id="education">
+      <h1 className={style.parentTitlte}> Aptitudes </h1>
       <section className={style.containerEducation}>
         <div className={style.squareContainer}>
           <h1 className={style.icon}> <CiSettings/></h1>

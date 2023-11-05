@@ -21,14 +21,14 @@
 
 /*-----------------------------------*/
 /* Media screen mobile */
-.containerProjects {
-  width: 80%;
-  margin: 0 auto;
+
+.container {
   text-align: center;
+  padding: 0px 10%;
 }
 
 .containerTitle {
-  margin-top: 90px;
+  margin-top: 45px;
 }
 
 .containerTitle h1 {
@@ -36,40 +36,40 @@
   color: var(--text-color-on-primary-background);
 }
 
-/* Grid container para las imágenes */
-.containerProjects .containerProjects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 40px;
-  margin-top: 20px;
+ .containerImg {
+  margin: 5% 0px;
 }
 
-/* Estilos para el contenedor de cada imagen */
-.containerProjects .containerImg {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-}
-
-/* Estilos para las imágenes */
-.containerProjects .containerImg img {
+.containerImg img {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
 @media screen and (min-width: 750px) {
-  .containerProjects .containerImg:hover {
+  .containerProjects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .containerImg {
+    width: 100%;
+  }
+
+  .containerImg img:hover {
     transform: translateY(-7px);
     -webkit-transform: translateY(-7px);
     -moz-transform: translateY(-7px);
@@ -77,3 +77,4 @@
     -o-transform: translateY(-7px);
   }
 }
+

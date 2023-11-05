@@ -1,13 +1,13 @@
 import impactX from "../../assents/images/projects/IMPACT-X.png";
 import bbcNews from "../../assents/images/projects/BBC-NEWS.png";
-import galery from "../../assents/images/projects/GALERY.png";
+import clima from "../../assents/images/projects/CLIMA.png";
 import calculator from "../../assents/images/projects/CALCULATOR.png";
 import style from "./style_projects.module.css";
 
 export function Projects() {
   return (
     <main id="projects">
-      <section className={style.containerProjects}>
+      <section className={style.container}>
         <aside className={style.containerTitle}>
           <h1> Mis proyectos</h1>
         </aside>
@@ -36,8 +36,8 @@ export function Projects() {
           </div>
 
           <div className={style.containerImg}>
-            <a target="_blank">
-              <img className={style.Img} src={galery} alt="img" />
+            <a href="https://clima-w48p.onrender.com" target="_blank">
+              <img className={style.Img} src={clima} alt="img" />
             </a>
           </div>
         </aside>

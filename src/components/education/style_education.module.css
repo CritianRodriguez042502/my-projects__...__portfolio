@@ -28,6 +28,12 @@
   margin-top: 30px;
 }
 
+.parentTitlte {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+  font-size: var(--text-h1);
+}
+
 .squareContainer {
   width: 100%;
   padding: 20px;
@@ -49,13 +55,13 @@
 }
 
 .text {
-  padding: 0px 60px;
+  padding: 0px 10%;
   font-size: var(--text-p);
 }
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1100px) {
   .containerEducation {
     display: flex;
     justify-content: center;
@@ -64,10 +70,14 @@
     margin-top: initial;
   }
 
+  .parentTitlte {
+    margin: 70px 0px 0px 0px;
+  }
+
   .squareContainer {
     width: 350px;
-    height: 400px;
-    margin: 100px 20px 10px 20px;
+    height: 410px;
+    margin: 40px 20px 10px 20px;
     transition: all 0.3s;
     -webkit-transition: background 0.3s;
   }
