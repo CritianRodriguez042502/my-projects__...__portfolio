@@ -25,14 +25,19 @@ export function Projects() {
               <img className={style.Img} src={bbcNews} alt="img" />
             </a>
           </div>
+
+          <div className={style.containerImg}>
+            <a
+              href="https://basic-calculator-xgn4.onrender.com"
+              target="_blank"
+            >
+              <img className={style.Img} src={calculator} alt="img" />
+            </a>
+          </div>
+
           <div className={style.containerImg}>
             <a target="_blank">
               <img className={style.Img} src={galery} alt="img" />
-            </a>
-          </div>
-          <div className={style.containerImg}>
-            <a target="_blank">
-              <img className={style.Img} src={calculator} alt="img" />
             </a>
           </div>
         </aside>
