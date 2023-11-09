@@ -13,15 +13,15 @@ export function Projects() {
         </aside>
         <aside className={style.containerProjects}>
           <div className={style.containerImg}>
-            <a
-              href="https://impact-x.onrender.com"
-              target="_blank"
-            >
+            <a href="https://impact-x.onrender.com" target="_blank">
               <img className={style.Img} src={impactX} alt="img" />
             </a>
           </div>
           <div className={style.containerImg}>
-            <a href="https://bbc-news-api.onrender.com/" target="_blank">
+            <a
+              href="https://api-news-v2.onrender.com"
+              target="_blank"
+            >
               <img className={style.Img} src={bbcNews} alt="img" />
             </a>
           </div>
