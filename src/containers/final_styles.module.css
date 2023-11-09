@@ -24,14 +24,15 @@
 /* Media screen mobile */
 .container {
     position: fixed;
-    bottom: 15px;
+    bottom: 0;
     right: 0;
-    z-index: 2;
+    z-index: 2;  
 }
 
 .containerImg {
     display: flex;
     justify-content: end;
+    padding: 0% 5% 30px 0%;
 }
 
 .imgCV {
