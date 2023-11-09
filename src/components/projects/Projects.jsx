@@ -14,7 +14,7 @@ export function Projects() {
         <aside className={style.containerProjects}>
           <div className={style.containerImg}>
             <a
-              href="https://critianrodriguez042502.github.io/agency_view/"
+              href="https://impact-x.onrender.com"
               target="_blank"
             >
               <img className={style.Img} src={impactX} alt="img" />
