@@ -22,28 +22,19 @@
 /*-----------------------------------*/
 
 /* Media screen mobile */
-.container {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 2;  
-}
-
-.containerImg {
-    display: flex;
-    justify-content: end;
-    padding: 0% 5% 30px 0%;
-}
 
 .imgCV {
-    width: 23%;
-    max-width: 450px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 23%;
+  max-width: 450px;
+  padding: 0% 5% 5% 0%;
 }
-
 
 /*-----------------------------------*/
 
 /* Media screen Desktop*/
 @media screen and (min-width: 1100px) {
-  
 }
