@@ -59,10 +59,18 @@
   background-color: #015ec1;
 }
 
+.containerContact .buttonContact:hover {
+  background-color: #00254d;
+}
+
 .containerContact .buttonCv {
   background: #333333;
   margin-top: 15px;
   padding: 10px 22px;
+}
+
+.containerContact .buttonCv:hover {
+  background: #242424;
 }
 
 .containerContact button a {
@@ -70,9 +78,7 @@
   text-decoration: none;
 }
 
-.containerContact button:hover {
-  background-color: #00254d;
-}
+
 /* ----------------------- */
 
 /* Section Footer */
@@ -84,7 +90,7 @@
 }
 
 .containerFooter h1 {
-  font-size: 50px;
+  font-size: 65px;
 }
 
 .containerFooter p {

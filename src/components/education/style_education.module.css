@@ -32,6 +32,7 @@
   text-align: center;
   margin: 40px 0px 0px 0px;
   font-size: var(--text-h1);
+  color: var(--text-color-on-primary-background);
 }
 
 .squareContainer {

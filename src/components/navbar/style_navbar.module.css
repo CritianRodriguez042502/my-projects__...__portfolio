@@ -33,24 +33,22 @@
   top: 0;
   background: var(--main-background-color);
   opacity: 0.8;
-  box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.2);
-  scroll-behavior: smooth;
+  box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.3);
 }
 
 .containerIcons {
   display: flex;
   justify-content: space-between;
-  padding: 35px 8% 5px 8%;
+  padding: 6% 6% 1px 6%;
 }
 
 .iconClose {
-  font-size: var(--text-h1);
+  font-size: 34px;
   cursor: pointer;
 }
 
 .iconMain {
-  font-size: var(--text-h1);
-  margin-right: 20px;
+  font-size: 37px;
 }
 
 .containerFixed {
