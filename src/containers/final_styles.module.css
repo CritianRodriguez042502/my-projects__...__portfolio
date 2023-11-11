@@ -23,15 +23,6 @@
 
 /* Media screen mobile */
 
-.imgCV {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  width: 23%;
-  max-width: 150px;
-  padding: 0% 5% 5% 0%;
-}
 
 /*-----------------------------------*/
 

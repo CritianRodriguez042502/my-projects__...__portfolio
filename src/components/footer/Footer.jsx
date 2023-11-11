@@ -6,7 +6,6 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import style from "./style_footer.module.css";
 
 export function Footer() {
-  
   return (
     <main id="footer">
       <section className={style.containerContact}>
@@ -15,10 +14,22 @@ export function Footer() {
           Contactame para iniciar tu proyecto de desarrollo web y hare que tu
           vision se vuelva realidad
         </p>
+        
         <div>
-          <button>
+          <button className={style.buttonContact}>
             <a href="mailto:cristianestiven1111@gmail.com" target="_blank">
               Contacto
+            </a>
+          </button>
+        </div>
+
+        <div>
+          <button className={style.buttonCv}>
+            <a
+              href="https://drive.google.com/file/d/1KHs6jbCm05FFEQkvft3ltVU_CXSW0xbW/view"
+              target="_blank"
+            >
+              Mirar Cv
             </a>
           </button>
         </div>

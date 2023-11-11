@@ -44,15 +44,24 @@
   margin-bottom: 20px;
 }
 
+
 .containerContact button {
   padding: 10px 20px;
   font-size: 1.1em;
-  background-color: #015ec1;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid #fff;
   transition: background-color 0.3s;
+}
+
+.containerContact .buttonContact {
+  background-color: #015ec1;
+}
+
+.containerContact .buttonCv {
+  background: #333333;
+  margin-top: 15px;
 }
 
 .containerContact button a {
@@ -131,6 +140,10 @@
 
   .containerContact button {
     margin-right: 40px;
+  }
+
+  .containerContact .buttonCv {
+    display: none;
   }
   /* ------------------ */
 

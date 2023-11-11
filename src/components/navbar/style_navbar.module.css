@@ -34,6 +34,7 @@
   background: var(--main-background-color);
   opacity: 0.8;
   box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.2);
+  scroll-behavior: smooth;
 }
 
 .containerIcons {
@@ -94,7 +95,6 @@
   .containerNavbarDesktop {
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     padding: 35px 50px 0px 50px;
   }
