@@ -43,7 +43,7 @@ export function Skills() {
           </div>
           <div className={style.containerIconsGit}>
             <img className={style.icon} src={Git} alt="img" />
-            <img className={style.icon} src={Git} alt="img" />
+            <img className={style.icon} src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="img" />
           </div>
         </aside>
       </section>

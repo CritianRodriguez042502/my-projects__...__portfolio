@@ -5,6 +5,7 @@
 }
 
 body {
+  scroll-behavior: auto;
   margin: 0px;
   font-family: 'Playpen Sans', cursive;
   box-sizing: border-box;
