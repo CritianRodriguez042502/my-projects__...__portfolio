@@ -7,7 +7,6 @@ import {
   Projects,
   Footer,
 } from "../components/index";
-import style from "./final_styles.module.css";
 
 function Portfolio() {
   const [view, setView] = useState(0);
@@ -19,7 +18,7 @@ function Portfolio() {
   }, []);
 
   return (
-    <main style={{ opacity: view }}>
+    <main style={{ opacity: view, overflow : "hidden" }}>
       <Navbar />
       <AboutMe />
       <Skills />
