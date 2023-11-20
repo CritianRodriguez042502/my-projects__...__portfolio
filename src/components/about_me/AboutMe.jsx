@@ -6,7 +6,7 @@ import style from "./style_about_me.module.css";
 export function AboutMe() {
   const [apparence, setApparence] = useState({
     opacity: "0.2",
-    width: "56%",
+    width: "57%",
   });
   const [colorFirstLetter, setColorFirstLetter] = useState("#333333");
   const [counter, setCounter] = useState(0);
@@ -20,16 +20,16 @@ export function AboutMe() {
 
   useEffect(
     function () {
-      if (apparence.opacity === "0.2" && apparence.width === "52%") {
+      if (apparence.opacity === "0.2" && apparence.width === "57%") {
         setTimeout(function () {
           setApparence({
             opacity: "1",
-            width: "72%",
+            width: "74%",
           });
         }, 700);
       }
 
-      if (apparence.opacity === "1" && apparence.width === "64%") {
+      if (apparence.opacity === "1" && apparence.width === "74%") {
         if (counter < softColors.length) {
           setTimeout(() => {
             setColorFirstLetter(softColors[counter]);
