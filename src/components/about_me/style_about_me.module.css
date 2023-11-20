@@ -23,6 +23,7 @@
 /* Media screen mobile */
 
 .containerAboutMe {
+  scroll-behavior: smooth;
   margin-top: 175px;
   display: flex;
   flex-direction: column;
