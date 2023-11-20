@@ -6,7 +6,7 @@ import style from "./style_about_me.module.css";
 export function AboutMe() {
   const [apparence, setApparence] = useState({
     opacity: "0.2",
-    width: "52%",
+    width: "56%",
   });
   const [colorFirstLetter, setColorFirstLetter] = useState("#333333");
   const [counter, setCounter] = useState(0);
@@ -24,7 +24,7 @@ export function AboutMe() {
         setTimeout(function () {
           setApparence({
             opacity: "1",
-            width: "80%",
+            width: "72%",
           });
         }, 700);
       }
