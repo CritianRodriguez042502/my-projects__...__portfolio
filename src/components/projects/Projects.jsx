@@ -1,4 +1,3 @@
-import { GoCopilot } from "react-icons/go";
 import impactX from "../../assents/images/projects/IMPACT-X.png";
 import bbcNews from "../../assents/images/projects/BBC-NEWS.png";
 import clima from "../../assents/images/projects/CLIMA.png";

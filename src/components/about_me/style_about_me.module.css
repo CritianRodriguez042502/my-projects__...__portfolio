@@ -30,21 +30,22 @@
 }
 
 .imgCristian {
-  width: 62%;
   max-width: 310px;
-  border: 5px double black;
+  border: 5px double #5c5c5c;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  transition: opacity .9s, width .5s;
 }
 
 .aboutMe {
   width: 100%;
   margin: 10px 0px 0px 0px;
   text-align: center;
+  color: var(--text-color-on-primary-background);
   font-size: var(--text-h1);
+}
+
+.aboutMe::first-letter {
+  font-size: 33px;
 }
 
 .description {
