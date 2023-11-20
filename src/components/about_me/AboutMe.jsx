@@ -24,7 +24,7 @@ export function AboutMe() {
         setTimeout(function () {
           setApparence({
             opacity: "1",
-            width: "70%",
+            width: "80%",
           });
         }, 700);
       }
