@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
 
+
 :root {
   --main-background-color : #f2f2f2;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
+
 
 body {
   margin: 0px;
