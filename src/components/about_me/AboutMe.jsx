@@ -18,6 +18,7 @@ export function AboutMe() {
     "rgb(180, 80, 80)",
   ];
 
+  
   useEffect(
     function () {
       if (apparence.opacity === "0.2" && apparence.width === "57%") {
