@@ -110,7 +110,7 @@ export function Projects() {
               >
                 <button className={style.projectButton}>Repositorio</button>
               </a>
-              <a href="https://clima-w48p.onrender.com" target="_blank">
+              <a>
                 <button className={style.projectButton}> Deploy </button>
               </a>
             </div>
