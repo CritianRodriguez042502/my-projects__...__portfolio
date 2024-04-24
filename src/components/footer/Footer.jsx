@@ -25,7 +25,8 @@ export function Footer() {
                     <a
                         href="https://drive.google.com/file/d/18Ne1wyDS71zorAzQZd8AOBgmvAM-k6Uh/view"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                    >
                         <button className={style.buttonCv}>Mirar Cv</button>
                     </a>
                 </div>
@@ -43,28 +44,32 @@ export function Footer() {
                         className={style.icon}
                         href="https://www.facebook.com/cristian.rodriguezbenitez.5/"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                    >
                         <AiFillFacebook />
                     </a>
                     <a
                         className={style.icon}
                         href="https://www.linkedin.com/in/rodriguezbenitez/"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                    >
                         <AiFillLinkedin />
                     </a>
                     <a
                         className={style.icon}
                         href="https://github.com/CritianRodriguez042502"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                    >
                         <AiFillGithub />
                     </a>
                     <a
                         className={style.icon}
                         href="https://www.instagram.com/cristianrodriguez0102/"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                    >
                         <AiOutlineInstagram />
                     </a>
                 </aside>

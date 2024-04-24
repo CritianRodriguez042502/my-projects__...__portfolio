@@ -29,13 +29,15 @@ export function Projects() {
                             <a
                                 href="https://github.com/CritianRodriguez042502/agency_view"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}>Repositorio</button>
                             </a>
                             <a
                                 href="https://impact-x.onrender.com"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}> Deploy </button>
                             </a>
                         </div>
@@ -61,13 +63,15 @@ export function Projects() {
                             <a
                                 href="https://github.com/CritianRodriguez042502/BBC-NEWS"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}>Repositorio</button>
                             </a>
                             <a
                                 href="https://api-news-v2.onrender.com"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}> Deploy </button>
                             </a>
                         </div>
@@ -84,19 +88,24 @@ export function Projects() {
                         <div>
                             <h2 className={style.titleProject}> 📱 CALCULADORA 📱 </h2>
                             <p className={style.text}>
-                                Una Calculadora diseñada con HTML, CSS y JavaScript vanilla
-                                mediante Vite, Diseñada con una interfaz funcional y elegante
-                                brindando operaciones matemáticas precisas y funciones con las
-                                operaciones basicas.
+                                Una Calculadora diseñada con HTML, CSS y JavaScript vanilla mediante
+                                Vite, Diseñada con una interfaz funcional y elegante brindando
+                                operaciones matemáticas precisas y funciones con las operaciones
+                                basicas.
                             </p>
 
                             <a
                                 href="https://github.com/CritianRodriguez042502/Calculator"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}>Repositorio</button>
                             </a>
-                            <a href="https://basic-calculator-xgn4.onrender.com" target="_blank" rel="noreferrer">
+                            <a
+                                href="https://basic-calculator-xgn4.onrender.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}> Deploy </button>
                             </a>
                         </div>
@@ -122,7 +131,8 @@ export function Projects() {
                             <a
                                 href="https://github.com/CritianRodriguez042502/Climate"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 <button className={style.projectButton}>Repositorio</button>
                             </a>
                             <a>

@@ -31,7 +31,7 @@
 .containerTitle h1 {
     margin-top: 45px;
     font-size: var(--text-h1);
-    color: var(--text-color-on-primary-background);
+    color: rgb(20, 28, 58);
 }
 
 .containerItem {
@@ -43,12 +43,8 @@
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.containerItem:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
-}
-
 .containerItem:hover .containerImg img {
-    transform: scale(1.03);
+    transform: scale(1.08);
 }
 
 .containerImg img {
