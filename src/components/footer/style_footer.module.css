@@ -1,22 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 :root {
-  /* font size */
-  --text-h1: 30px;
-  --text-h2: 23px;
-  --text-p: 17px;
+    /* font size */
+    --text-h1: 30px;
+    --text-h2: 23px;
+    --text-p: 17px;
 
-  /* Color of letters*/
-  --text-color-on-primary-background: #333333;
-  --text-color-on-secondary-background: #ffffff;
+    /* Color of letters*/
+    --text-color-on-primary-background: rgb(20, 28, 58);
+    --text-color-on-secondary-background: #ffffff;
 
-  /* font family titles */
-  --font-family-title: "Kalam", cursive;
+    /* font family titles */
+    --font-family-title: 'Kalam', cursive;
 
-  /* backgrounds */
-  --main-background-color: #f2f2f2;
-  --secondary-background-color: #333333;
-  --tertiary-background-color: #3498db;
+    /* backgrounds */
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #333333;
+    --tertiary-background-color: #3498db;
 }
 
 /*-----------------------------------*/
@@ -24,58 +24,62 @@
 
 /* Section contact*/
 .containerContact {
-  margin: 0 auto;
-  text-align: center;
-  margin: 80px 0px 0px 0px;
-  padding: 15% 0px;
-  background-color: rgb(39, 39, 214);
+    margin: 0 auto;
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+    padding: 15% 0px;
+    background-color: rgb(20,28,58);
 }
 
 .containerContact h1 {
-  color: var(--text-color-on-secondary-background);
-  font-size: var(--text-h1);
-  margin-bottom: 10px;
+    color: var(--text-color-on-secondary-background);
+    font-size: var(--text-h1);
+    margin-bottom: 10px;
 }
 
 .containerContact p {
-  color: var(--text-color-on-secondary-background);
-  font-size: var(--text-p);
-  padding: 10px 10% 0px 10%;
-  margin-bottom: 20px;
+    color: var(--text-color-on-secondary-background);
+    font-size: var(--text-p);
+    padding: 10px 10% 0px 10%;
+    margin-bottom: 20px;
 }
 
-
 .containerContact button {
-  padding: 10px 20px;
-  font-size: 1.1em;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  border: 1px solid #fff;
-  transition: background-color 0.3s;
+    padding: 10px 20px;
+    font-size: 19px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s;
 }
 
 .containerContact .buttonContact {
-  background-color: #015ec1;
+    border: 2px solid rgb(91,233,185);
+    background-color: rgb(20,28,58);
 }
 
 .containerContact .buttonContact:hover {
-  background-color: #00254d;
+    color: black;
+    background-color: rgb(91,233,185);
+    
 }
 
 .containerContact .buttonCv {
-  background: #333333;
-  margin-top: 15px;
-  padding: 10px 22px;
+    background: #333333;
+    border: 2px solid white;
+    margin-top: 15px;
+    padding: 10px 22px;
 }
 
 .containerContact .buttonCv:hover {
-  background: #242424;
+    color: black;
+    background: white;
 }
 
 .containerContact button a {
-  color: var(--text-color-on-secondary-background);
-  text-decoration: none;
+    color: var(--text-color-on-secondary-background);
+    text-decoration: none;
 }
 
 
@@ -83,106 +87,107 @@
 
 /* Section Footer */
 .containerFooter {
-  text-align: center;
-  background-color: var(--secondary-background-color);
-  color: #fff;
-  padding: 80px 0px 80px 0px;
+    text-align: center;
+    background-color: rgb(110, 7, 243);
+    color: #fff;
+    padding: 80px 0px 80px 0px;
 }
 
 .containerFooter h1 {
-  font-size: 65px;
+    font-size: 65px;
 }
 
 .containerFooter p {
-  font-size: var(--text-p);
-  margin-top: 10px;
-  padding: 0px 5%;
+    font-size: var(--text-p);
+    margin-top: 10px;
+    padding: 0px 5%;
 }
 
 .containerFooter .containerIcons {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .containerFooter .icon {
-  font-size: 40px;
-  color: var(--text-color-on-secondary-background);
-  margin: 0 10px;
-  transition: color 0.3s, transform 0.3s;
+    font-size: 40px;
+    color: var(--text-color-on-secondary-background);
+    margin: 0 10px;
+    transition:
+        color 0.3s,
+        transform 0.3s;
 }
 
 .containerFooter .icon:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-
 .creator {
-  opacity: 0.4;
-  text-decoration: underline;
+    opacity: 0.4;
+    text-decoration: underline;
 }
 /*------------------------*/
 
 /* Media screen Desktop*/
 @media screen and (min-width: 900px) {
-  /* Section contact */
-  .containerContact {
-    margin: 80px 50px -70px 50px;
-    padding: 20px 15px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    justify-content: space-between;
-    border: 6px double white;
-  }
+    /* Section contact */
+    .containerContact {
+        margin: 80px 50px -70px 50px;
+        padding: 20px 15px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        justify-content: space-between;
+        border: 6px double white;
+    }
 
-  .containerContact p {
-    width: 40%;
-  }
+    .containerContact p {
+        width: 40%;
+    }
 
-  .containerContact h1 {
-    padding-left: 20px;
-  }
+    .containerContact h1 {
+        padding-left: 20px;
+    }
 
-  .containerContact button {
-    margin-right: 40px;
-  }
+    .containerContact button {
+        margin-right: 40px;
+    }
 
-  .containerContact .buttonCv {
-    display: none;
-  }
-  /* ------------------ */
+    .containerContact .buttonCv {
+        display: none;
+    }
+    /* ------------------ */
 
-  /* Section Footer */
-  .containerFooter {
-    text-align: center;
-    position: relative;
-    z-index: 0;
-    background-color: var(--secondary-background-color);
-    padding: 160px 0px 60px 0px;
-  }
+    /* Section Footer */
+    .containerFooter {
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        background-color: var(--secondary-background-color);
+        padding: 160px 0px 60px 0px;
+    }
 
-  .containerFooter h1 {
-    font-size: 80px;
-    margin: 0px;
-  }
+    .containerFooter h1 {
+        font-size: 80px;
+        margin: 0px;
+    }
 
-  .containerFooter p {
-    font-size: var(--text-p);
-    margin-top: 10px;
-  }
+    .containerFooter p {
+        font-size: var(--text-p);
+        margin-top: 10px;
+    }
 
-  .containerFooter .containerIcons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
+    .containerFooter .containerIcons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 
-  .containerFooter .icon {
-    font-size: 40px;
-    margin: 0 10px;
-  }
+    .containerFooter .icon {
+        font-size: 40px;
+        margin: 0 10px;
+    }
 
-  /*------------------------*/
+    /*------------------------*/
 }

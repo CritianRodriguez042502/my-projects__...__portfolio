@@ -1,95 +1,100 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 :root {
-  /* font size */
-  --text-h1: 30px;
-  --text-h2: 23px;
-  --text-p: 17px;
+    /* font size */
+    --text-h1: 30px;
+    --text-h2: 23px;
+    --text-p: 17px;
 
-  /* Color of letters*/
-  --text-color-on-primary-background: #333333;
-  --text-color-on-secondary-background: #ffffff;
+    /* Color of letters*/
+    --text-color-on-primary-background: rgb(20, 28, 58);
+    --text-color-on-secondary-background: #ffffff;
 
-  /* font family titles */
-  --font-family-title: "Kalam", cursive;
+    /* font family titles */
+    --font-family-title: 'Kalam', cursive;
 
-  /* backgrounds */
-  --main-background-color: #f2f2f2;
-  --secondary-background-color: #333333;
-  --tertiary-background-color: #3498db;
+    /* backgrounds */
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #333333;
+    --tertiary-background-color: #3498db;
 }
 
 /*-----------------------------------*/
 /* Media screen mobile */
 .containerEducation {
-  scroll-behavior: smooth;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .parentTitlte {
-  text-align: center;
-  margin: 40px 0px 0px 0px;
-  font-size: var(--text-h1);
-  color: var(--text-color-on-primary-background);
+    text-align: center;
+    margin-top: 90px;
+    font-size: var(--text-h1);
+    color: rgb(20, 28, 58);
 }
 
 .squareContainer {
-  width: 100%;
-  padding: 20px;
-  background-color: #f7f7f7;
-  border-radius: 10px;
-  margin: 0px 20px 10px 20px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  transition: color 0.3s, background 0.3s; 
+    width: 100%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 0px 20px 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition:
+        color 0.3s,
+        background 0.3s;
 }
 
 .icon {
-  margin: 0px;
-  font-size: 40px;
+    color: rgb(110,7,243);
+    margin: 0px;
+    font-size: 45px;
 }
 
 .title {
-  font-size: var(--text-h2);
-  margin-bottom: 10px 0px 10px 0px;
+    font-size: var(--text-h2);
+    margin-bottom: 5px 0px 10px 0px;
 }
 
 .text {
-  padding: 0px 10%;
-  font-size: var(--text-p);
+    padding: 0px 10%;
+    font-size: var(--text-p);
 }
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
 @media screen and (min-width: 1100px) {
-  .containerEducation {
-    display: flex;
-    justify-content: center;
-    flex-direction: initial;
-    align-items: center;
-    margin-top: initial;
-  }
+    .containerEducation {
+        display: flex;
+        justify-content: center;
+        flex-direction: initial;
+        align-items: center;
+        margin-top: initial;
+    }
 
-  .parentTitlte {
-    margin: 70px 0px 0px 0px;
-  }
+    .parentTitlte {
+        margin: 70px 0px 0px 0px;
+    }
 
-  .squareContainer {
-    width: 350px;
-    height: 410px;
-    margin: 40px 20px 10px 20px;
-    transition: color 0.3s, background 0.3s; 
-  }
+    .squareContainer {
+        width: 350px;
+        height: 410px;
+        margin: 40px 20px 10px 20px;
+        transition:
+            color 0.3s,
+            background 0.3s;
+    }
 
-  .squareContainer:hover {
-    color: var(--main-background-color);
-    background: var(--secondary-background-color);
-  }
+    .squareContainer:hover {
+        color: var(--main-background-color);
+        background: var(--secondary-background-color);
+    }
 
-  .text {
-    padding: initial;
-  }
+    .text {
+        padding: initial;
+    }
 }

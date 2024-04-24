@@ -1,12 +1,11 @@
-import React from "react";
-import reactDoom from "react-dom/client";
-import "./styles/index.css";
-import Portfolio from "./view/Portfolio.jsx";
+import reactDoom from 'react-dom/client';
 
-const root = reactDoom.createRoot(document.getElementById("root"));
+// Import Portfolio and global styles
+import Portfolio from './view/Portfolio.jsx';
+import './index.css';
 
-root.render(
-  <>
-    <Portfolio />
-  </>
+reactDoom.createRoot(document.getElementById('root')).render(
+    <>
+        <Portfolio />
+    </>
 );

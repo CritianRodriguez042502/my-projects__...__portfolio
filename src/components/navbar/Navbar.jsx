@@ -1,84 +1,79 @@
-import { useState, useEffect } from "react";
-import { DiJsBadge } from "react-icons/di";
-import { AiOutlineMenu } from "react-icons/ai";
-import style from "./style_navbar.module.css";
+import { useState, useEffect } from 'react';
+import { DiJsBadge } from 'react-icons/di';
+import { AiOutlineMenu } from 'react-icons/ai';
+import style from './style_navbar.module.css';
 
 export function Navbar() {
-  const [apperance, setApperance] = useState("none");
+    const [apperance, setApperance] = useState('none');
 
-  useEffect(function () {
-    const url = "https://server-agency-1203.onrender.com";
-    fetch(url);
-  }, []);
+    useEffect(function () {
+        const url = 'https://server-agency-1203.onrender.com';
+        fetch(url);
+    }, []);
 
-  const onClickApperanceNavbar = (e) => {
-    if (apperance === "none") {
-      setApperance("flex");
-    } else {
-      setApperance("none");
-    }
-  };
+    const onClickApperanceNavbar = (e) => {
+        if (apperance === 'none') {
+            setApperance('flex');
+        } else {
+            setApperance('none');
+        }
+    };
 
-  const navigate = (e) => {
-    window.setTimeout(() => {
-      setApperance("none");
-    }, 300);
-  };
+    const navigate = (e) => {
+        window.setTimeout(() => {
+            setApperance('none');
+        }, 300);
+    };
 
-  return (
-    
-      <main style={{overflow : "hidden"}}>
-        <section className={style.containerNavbarMobile}>
-          <aside className={style.containerIcons}>
-            <div onClick={onClickApperanceNavbar} className={style.iconClose}>
-              <AiOutlineMenu />
-            </div>
-            <div className={style.iconMain}>
-              <DiJsBadge />
-            </div>
-          </aside>
+    return (
+        <main style={{ overflow: 'hidden' }}>
+            <section className={style.containerNavbarMobile}>
+                <aside className={style.containerIcons}>
+                    <div onClick={onClickApperanceNavbar} className={style.iconClose}>
+                        <AiOutlineMenu />
+                    </div>
+                    <div className={style.iconMain}>
+                        <DiJsBadge />
+                    </div>
+                </aside>
 
-          <aside
-            style={{ display: apperance }}
-            className={style.containerFixed}
-          >
-            <nav className={style.containerLinks}>
-              <a onClick={navigate} className={style.links} href="#about_me">
-                Sobre mi
-              </a>
-              <a onClick={navigate} className={style.links} href="#skills">
-                Habilidades
-              </a>
-              <a onClick={navigate} className={style.links} href="#projects">
-                Proyectos
-              </a>
-              <a onClick={navigate} className={style.links} href="#footer">
-                Contacto
-              </a>
-            </nav>
-          </aside>
-        </section>
+                <aside style={{ display: apperance }} className={style.containerFixed}>
+                    <nav className={style.containerLinks}>
+                        <a onClick={navigate} className={style.links} href="#about_me">
+                            Sobre mi
+                        </a>
+                        <a onClick={navigate} className={style.links} href="#skills">
+                            Habilidades
+                        </a>
+                        <a onClick={navigate} className={style.links} href="#projects">
+                            Proyectos
+                        </a>
+                        <a onClick={navigate} className={style.links} href="#footer">
+                            Contacto
+                        </a>
+                    </nav>
+                </aside>
+            </section>
 
-        <section className={style.containerNavbarDesktop}>
-          <div className={style.iconMain}>
-            <DiJsBadge />
-          </div>
-          <nav className={style.containerLinks}>
-            <a className={style.links} href="#about_me">
-              Sobre mi
-            </a>
-            <a className={style.links} href="#skills">
-              Habilidades
-            </a>
-            <a className={style.links} href="#projects">
-              Proyectos
-            </a>
-            <a className={style.links} href="#footer">
-              Contacto
-            </a>
-          </nav>
-        </section>
-      </main>
-    
-  );
+            <section className={style.containerNavbarDesktop}>
+                <div className={style.iconMain}>
+                    <DiJsBadge />
+                </div>
+                <nav className={style.containerLinks}>
+                    <a className={style.links} href="#about_me">
+                        Sobre mi
+                    </a>
+                    <a className={style.links} href="#skills">
+                        Habilidades
+                    </a>
+                    <a className={style.links} href="#projects">
+                        Proyectos
+                    </a>
+                    <a className={style.links} href="#footer">
+                        Contacto
+                    </a>
+                </nav>
+            </section>
+        </main>
+    );
 }

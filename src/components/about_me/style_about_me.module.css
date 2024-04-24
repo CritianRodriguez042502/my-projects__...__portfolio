@@ -1,75 +1,72 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 :root {
-  /* font size */
-  --text-h1: 30px;
-  --text-h2: 23px;
-  --text-p: 17px;
+    /* font size */
+    --text-h1: 30px;
+    --text-h2: 23px;
+    --text-p: 17px;
 
-  /* Color of letters*/
-  --text-color-on-primary-background: #333333;
-  --text-color-on-secondary-background: #ffffff;
+    /* Color of letters*/
+    --text-color-on-primary-background: rgb(20, 28, 58);
+    --text-color-on-secondary-background: #ffffff;
 
-  /* font family titles */
-  --font-family-title: "Kalam", cursive;
+    /* font family titles */
+    --font-family-title: 'Kalam', cursive;
 
-  /* backgrounds */
-  --main-background-color: #f2f2f2;
-  --secondary-background-color: #333333;
-  --tertiary-background-color: #3498db;
+    /* backgrounds */
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #333333;
+    --tertiary-background-color: #3498db;
 }
 
 /*-----------------------------------*/
 /* Media screen mobile */
 
 .containerAboutMe {
-  scroll-behavior: smooth;
-  margin-top: 175px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    scroll-behavior: smooth;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .imgCristian {
-  max-width: 310px;
-  border: 5px double #5c5c5c;
-  border-radius: 50%;
-  transition: opacity .9s, width .5s;
+    max-width: 290px;
+    border: 10px double #e0e0e0;
+    border-radius: 50%;
+    box-shadow: 0 6px 40px rgb(68, 68, 68);
+    transition:
+        box-shadow 0.9s,
+        opacity 0.9s,
+        width 0.5s;
 }
 
-.aboutMe {
-  width: 100%;
-  margin: 10px 0px 0px 0px;
-  text-align: center;
-  color: var(--text-color-on-primary-background);
-  font-size: var(--text-h1);
-}
-
-.aboutMe::first-letter {
-  font-size: 33px;
+.name {
+    margin-top: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+    font-size: var(--text-h1);
 }
 
 .description {
-  margin: 10px 0px 0px 0px;
-  font-size: var(--text-p);
-  text-align: center;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: var(--text-p);
+    text-align: center;
 }
 
 .imgDesktops {
-  margin-top: -80px;
-  margin-bottom: -20px;
-  width: 90%;
-  max-width: 650px;
+    margin-top: 75px;
+    width: 90%;
+    max-width: 650px;
 }
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
 @media screen and (min-width: 750px) {
-  .containerAboutMe {
-    margin-top: 110px;
-  }
-
-  .imgDesktops {
-    margin-top: -200px;
-  }
+    .containerAboutMe {
+        margin-top: 110px;
+    }
 }

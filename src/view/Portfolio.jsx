@@ -1,32 +1,49 @@
-import { useState, useEffect } from "react";
-import {
-  Navbar,
-  AboutMe,
-  Skills,
-  Education,
-  Projects,
-  Footer,
-} from "../components/index";
+import { useState, useEffect } from 'react';
+import { GridLoader } from 'react-spinners';
+import { Navbar, AboutMe, Skills, Education, Projects, Footer } from '../components/index.js';
 
-function Portfolio() {
-  const [view, setView] = useState(0);
+export default function Portfolio() {
+    const [view, setView] = useState('none');
+    const [opacity, setOpacity] = useState(0);
 
-  useEffect(function () {
-    setTimeout(() => {
-      setView(1);
-    }, 250);
-  }, []);
+    // Loader initial
+    useEffect(() => {
+        setTimeout(() => {
+            setView('initial');
+        }, 10000);
+    }, [view]);
 
-  return (
-    <main style={{ opacity: view, overflow : "hidden" }}>
-      <Navbar />
-      <AboutMe />
-      <Skills />
-      <Education />
-      <Projects />
-      <Footer />
-    </main>
-  );
+    useEffect(() => {
+        if (view === 'initial') {
+            setTimeout(() => {
+                setOpacity(1);
+            }, 150);
+        }
+    }, [view, opacity]);
+
+    return (
+        <main>
+            {view === 'initial' ? (
+                <aside style={{ opacity: opacity }}>
+                    <Navbar />
+                    <AboutMe />
+                    <Skills />
+                    <Education />
+                    <Projects />
+                    <Footer />
+                </aside>
+            ) : (
+                <div
+                    style={{
+                        width: '100%',
+                        height: '100vh',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}>
+                    <GridLoader size={27} color="#6E07F3" />
+                </div>
+            )}
+        </main>
+    );
 }
-
-export default Portfolio;

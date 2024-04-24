@@ -1,137 +1,135 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 :root {
-  /* font size */
-  --text-h1: 30px;
-  --text-h2: 23px;
-  --text-p: 17px;
+    /* font size */
+    --text-h1: 30px;
+    --text-h2: 23px;
+    --text-p: 17px;
 
-  /* Color of letters*/
-  --text-color-on-primary-background: #333333;
-  --text-color-on-secondary-background: #ffffff;
+    /* Color of letters*/
+    --text-color-on-primary-background: rgb(20, 28, 58);
+    --text-color-on-secondary-background: #ffffff;
 
-  /* font family titles */
-  --font-family-title: "Kalam", cursive;
+    /* font family titles */
+    --font-family-title: 'Kalam', cursive;
 
-  /* backgrounds */
-  --main-background-color: #f2f2f2;
-  --secondary-background-color: #333333;
-  --tertiary-background-color: #3498db;
+    /* backgrounds */
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #333333;
+    --tertiary-background-color: #3498db;
 }
 
 /*-----------------------------------*/
 /* Media screen mobile */
 
-.containerSkills {
-  margin: 0 auto;
-  padding: 45px 0px 30px 0px;
-  background: var(--secondary-background-color);
+.containerOfMyPresentation {
+    background: rgb(110, 7, 243);
+    padding: 14% 8%;
+    margin: 0 auto;
 }
 
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    color: var(--text-color-on-secondary-background);
+}
 .text {
-  font-size: var(--text-p);
-  text-align: center;
-  color: var(--text-color-on-secondary-background);
-  padding: 50px 60px;
-  padding:10% 7%;
-  margin: 0 auto;
+    font-size: var(--text-p);
+    text-align: center;
+    color: var(--text-color-on-secondary-background);
 }
 
-.frontendParentContainer {
-  margin: 0px 0px 30px 0px;
-  border-bottom: 3px solid white;
+.languageContainer {
+    display: flex;
+    flex-direction: column;
+    color: rgb(20, 28, 58);
 }
 
-.containerIconsFrontend {
-  text-align: center;
-  padding: 0px 0px 7px 0px;
-}
-
-.containerIconsFrontend h1 {
-  color: var(--text-color-on-secondary-background);
-  font-size: var(--text-h2);
-  margin: 0px 0px 10px 0px;
+.frontendParentContainer { 
+    text-align: center;
+    padding-bottom: 11px;
+    border-bottom: 2px dotted  rgb(110, 7, 243);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .backendParentContainer {
-  margin: 0px 0px 30px 0px;
-  border-bottom: 3px solid white;
+    text-align: center;
+    padding-bottom: 11px;
+    border-bottom: 2px dotted  rgb(110, 7, 243);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.containerIconsBackend {
-  text-align: center;
-  margin: 0px 0px 7px 0px;
-  padding: 0px 0px 7px 0px;
+.gitParentContainer {
+    text-align: center;
+    padding-bottom: 11px;
+    border-bottom: 2px dotted  rgb(110, 7, 243);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.containerIconsBackend h1 {
-  font-size: var(--text-h2);
-  color: var(--text-color-on-secondary-background);
-  margin: 0px 0px 10px 0px;
-}
-
-.containerIconsGit {
-  padding: 0px 0px 20px 0px;
-  color: var(--text-color-on-secondary-background);
-  text-align: center;
+.containerIcons {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .icon {
-  width: 13%;
-  max-width: 90px;
-  margin: 0px 10px;
-  transition: transform 0.4s;
+    width: 11%;
+    max-width: 70px;
+    margin: 0px 10px;
+    transition: transform 0.4s;
 }
 
 .icon:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
 @media screen and (min-width: 900px) {
-  .containerSkills {
-    display: flex;
-    align-items: center;
-    padding: 6% 0px 6% 0px;
-  }
+    .containerSkills {
+        display: flex;
+        align-items: center;
+        padding: 6% 0px 6% 0px;
+    }
 
-  .text {
-    width: 25%;
-    font-size: var(--text-p);
-    padding: 0px 80px;
-  }
+    .text {
+        width: 25%;
+        font-size: var(--text-p);
+        padding: 0px 80px;
+    }
 
-  .containerIcons {
-    width: 100%;
-  }
+    .containerIcons {
+        width: 100%;
+    }
 
-  .frontendParentContainer {
-    display: flex;
-  }
+    .frontendParentContainer {
+        display: flex;
+    }
 
-  .containerIconsFrontend h1 {
-    text-align: center;
-  }
+    .containerIconsFrontend h1 {
+        text-align: center;
+    }
 
-  .backendParentContainer {
-    display: flex;
-    justify-content: end;
-  }
+    .backendParentContainer {
+        display: flex;
+        justify-content: end;
+    }
 
-  .containerIconsBackend {
-    margin-right: 40px;
-  }
+    .containerIconsBackend {
+        margin-right: 40px;
+    }
 
-  .containerIconsBackend h1 {
-    text-align: center;
-  }
+    .containerIconsBackend h1 {
+        text-align: center;
+    }
 
-  .icon {
-    width: 90px;
-  }
+    .icon {
+        width: 90px;
+    }
 }

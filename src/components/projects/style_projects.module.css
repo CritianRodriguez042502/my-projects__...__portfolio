@@ -1,119 +1,114 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 :root {
-  /* font size */
-  --text-h1: 30px;
-  --text-h2: 23px;
-  --text-p: 17px;
+    /* font size */
+    --text-h1: 30px;
+    --text-h2: 23px;
+    --text-p: 17px;
 
-  /* Color of letters*/
-  --text-color-on-primary-background: #333333;
-  --text-color-on-secondary-background: #ffffff;
+    /* Color of letters*/
+    --text-color-on-primary-background: rgb(20, 28, 58);
+    --text-color-on-secondary-background: #ffffff;
 
-  /* font family titles */
-  --font-family-title: "Kalam", cursive;
+    /* font family titles */
+    --font-family-title: 'Kalam', cursive;
 
-  /* backgrounds */
-  --main-background-color: #f2f2f2;
-  --secondary-background-color: #333333;
-  --tertiary-background-color: #3498db;
+    /* backgrounds */
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #333333;
+    --tertiary-background-color: #3498db;
 }
 
 /*-----------------------------------*/
 /* Media screen mobile */
 
 .container {
-  text-align: center;
-  padding: 0px 5%;
-  position:relative;
+    text-align: center;
+    padding: 0px 5%;
+    position: relative;
 }
-
 
 .containerTitle h1 {
-  margin-top: 45px;
-  font-size: var(--text-h1);
-  color: var(--text-color-on-primary-background);
+    margin-top: 45px;
+    font-size: var(--text-h1);
+    color: var(--text-color-on-primary-background);
 }
 
-
 .containerItem {
-  margin: 10px 0px 20% 0px;
-  padding: 0px 0px 10px 0px;
-  border-radius: 38% 38% 5px 5px;
-  overflow-x: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease-in-out;
+    margin: 10px 0px 20% 0px;
+    padding: 0px 0px 10px 0px;
+    border-radius: 38% 38% 5px 5px;
+    overflow-x: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .containerItem:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .containerItem:hover .containerImg img {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
-
 .containerImg img {
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-  transition: transform .7s;
-  -webkit-transition: transform .7s;
-  -moz-transition: transform .7s;
-  -ms-transition: transform .7s;
-  -o-transition: transform .7s;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: transform 0.7s;
+    -webkit-transition: transform 0.7s;
+    -moz-transition: transform 0.7s;
+    -ms-transition: transform 0.7s;
+    -o-transition: transform 0.7s;
 }
 
 .titleProject {
-  font-size: var(--text-h2);
-  color: var(--text-color-on-primary-background);
+    font-size: var(--text-h2);
+    color: var(--text-color-on-primary-background);
 }
 
 .text {
-  padding: 0px 8%;
-  color: var(--text-color-on-primary-background);
+    padding: 0px 8%;
+    color: var(--text-color-on-primary-background);
 }
 
 .projectButton {
-  margin: 0 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: var(--secondary-background-color);
-  cursor: pointer;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
 }
 
 .projectButton:hover {
-  background-color: #1c1c1c;
-  color: #fff;
+    background-color: #1c1c1c;
+    color: #fff;
 }
 
 /*-----------------------------------*/
 /* Media screen Desktop*/
 @media screen and (min-width: 750px) {
-  .containerProjects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 45px;
-    width: 77%;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
+    .containerProjects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 45px;
+        width: 77%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
 
-  .containerItem {
-    margin: 15px 0px 4% 0px;
-  }
+    .containerItem {
+        margin: 15px 0px 4% 0px;
+    }
 
-  .containerImg {
-    width: 100%;
-  }
-
-  
-
+    .containerImg {
+        width: 100%;
+    }
 }
-
