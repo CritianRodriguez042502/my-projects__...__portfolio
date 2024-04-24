@@ -10,7 +10,7 @@ export default function Portfolio() {
     useEffect(() => {
         setTimeout(() => {
             setView('initial');
-        }, 10000);
+        }, 2000);
     }, [view]);
 
     useEffect(() => {
@@ -40,7 +40,8 @@ export default function Portfolio() {
                         display: 'flex',
                         justifyContent: 'center',
                         alignItems: 'center',
-                    }}>
+                    }}
+                >
                     <GridLoader size={27} color="#6E07F3" />
                 </div>
             )}

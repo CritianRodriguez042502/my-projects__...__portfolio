@@ -47,31 +47,30 @@
     color: rgb(20, 28, 58);
 }
 
-.frontendParentContainer { 
+.frontendParentContainer {
     text-align: center;
     padding-bottom: 11px;
-    border-bottom: 2px dotted  rgb(110, 7, 243);
+    border-bottom: 2px dotted rgb(110, 7, 243);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .backendParentContainer {
     text-align: center;
     padding-bottom: 11px;
-    border-bottom: 2px dotted  rgb(110, 7, 243);
+    border-bottom: 2px dotted rgb(110, 7, 243);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .gitParentContainer {
     text-align: center;
     padding-bottom: 11px;
-    border-bottom: 2px dotted  rgb(110, 7, 243);
+    border-bottom: 2px dotted rgb(110, 7, 243);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .containerIcons {
     display: flex;
     justify-content: center;
-    
 }
 
 .icon {

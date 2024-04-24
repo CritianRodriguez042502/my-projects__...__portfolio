@@ -16,15 +16,18 @@ export function Footer() {
                 </p>
 
                 <div>
-                    <button className={style.buttonContact}>
-                        Contacto
-                    </button>
+                    <a href="mailto:cristianestiven1111@gmail.com" target="_blank" rel="noreferrer">
+                        <button className={style.buttonContact}>Contacto</button>
+                    </a>
                 </div>
 
                 <div>
-                    <button className={style.buttonCv}>
-                        Observar Cv
-                    </button>
+                    <a
+                        href="https://drive.google.com/file/d/18Ne1wyDS71zorAzQZd8AOBgmvAM-k6Uh/view"
+                        target="_blank"
+                        rel="noreferrer">
+                        <button className={style.buttonCv}>Mirar Cv</button>
+                    </a>
                 </div>
             </section>
 
@@ -40,28 +43,28 @@ export function Footer() {
                         className={style.icon}
                         href="https://www.facebook.com/cristian.rodriguezbenitez.5/"
                         target="_blank"
-                    >
+                        rel="noreferrer">
                         <AiFillFacebook />
                     </a>
                     <a
                         className={style.icon}
                         href="https://www.linkedin.com/in/rodriguezbenitez/"
                         target="_blank"
-                    >
+                        rel="noreferrer">
                         <AiFillLinkedin />
                     </a>
                     <a
                         className={style.icon}
                         href="https://github.com/CritianRodriguez042502"
                         target="_blank"
-                    >
+                        rel="noreferrer">
                         <AiFillGithub />
                     </a>
                     <a
                         className={style.icon}
                         href="https://www.instagram.com/cristianrodriguez0102/"
                         target="_blank"
-                    >
+                        rel="noreferrer">
                         <AiOutlineInstagram />
                     </a>
                 </aside>

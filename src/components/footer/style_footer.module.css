@@ -28,7 +28,7 @@
     text-align: center;
     margin: 80px 0px 0px 0px;
     padding: 15% 0px;
-    background-color: rgb(20,28,58);
+    background-color: rgb(20, 28, 58);
 }
 
 .containerContact h1 {
@@ -51,18 +51,19 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.4s, color 0.4s;
+    transition:
+        background-color 0.4s,
+        color 0.4s;
 }
 
 .containerContact .buttonContact {
-    border: 2px solid rgb(91,233,185);
-    background-color: rgb(20,28,58);
+    border: 2px solid rgb(91, 233, 185);
+    background-color: rgb(20, 28, 58);
 }
 
 .containerContact .buttonContact:hover {
     color: black;
-    background-color: rgb(91,233,185);
-    
+    background-color: rgb(91, 233, 185);
 }
 
 .containerContact .buttonCv {
@@ -81,7 +82,6 @@
     color: var(--text-color-on-secondary-background);
     text-decoration: none;
 }
-
 
 /* ----------------------- */
 

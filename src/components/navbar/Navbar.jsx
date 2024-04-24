@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { DiJsBadge } from 'react-icons/di';
+import { GrBeacon } from 'react-icons/gr';
 import { AiOutlineMenu } from 'react-icons/ai';
 import style from './style_navbar.module.css';
 
@@ -11,7 +11,7 @@ export function Navbar() {
         fetch(url);
     }, []);
 
-    const onClickApperanceNavbar = (e) => {
+    const onClickApperanceNavbar = () => {
         if (apperance === 'none') {
             setApperance('flex');
         } else {
@@ -19,7 +19,7 @@ export function Navbar() {
         }
     };
 
-    const navigate = (e) => {
+    const navigate = () => {
         window.setTimeout(() => {
             setApperance('none');
         }, 300);
@@ -33,7 +33,7 @@ export function Navbar() {
                         <AiOutlineMenu />
                     </div>
                     <div className={style.iconMain}>
-                        <DiJsBadge />
+                        <GrBeacon />
                     </div>
                 </aside>
 
@@ -57,7 +57,7 @@ export function Navbar() {
 
             <section className={style.containerNavbarDesktop}>
                 <div className={style.iconMain}>
-                    <DiJsBadge />
+                    <GrBeacon />
                 </div>
                 <nav className={style.containerLinks}>
                     <a className={style.links} href="#about_me">
