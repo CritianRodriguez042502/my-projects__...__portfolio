@@ -9,9 +9,8 @@ export function Education() {
             <h1 className={style.parentTitlte}> Aptitudes </h1>
             <section className={style.containerEducation}>
                 <div className={style.squareContainer}>
-                    <h1 className={style.icon}>
-                        <CiSettings />
-                    </h1>
+                    <CiSettings className={style.icon} />
+
                     <h1 className={style.title}> Desarrollo web </h1>
                     <p className={style.text}>
                         Con experiencia en desarrollo web usando Django y React, he creado
@@ -20,10 +19,10 @@ export function Education() {
                         habilidades y enfrentar nuevos desafíos en este campo.
                     </p>
                 </div>
+
                 <div className={style.squareContainer}>
-                    <h1 className={style.icon}>
-                        <CiRouter />
-                    </h1>
+                    <CiRouter className={style.icon} />
+
                     <h1 className={style.title}> Educacion </h1>
                     <p className={style.text}>
                         Titulado como bachiller, actualmente estudio Ingeniería de Software en el
@@ -33,9 +32,8 @@ export function Education() {
                     </p>
                 </div>
                 <div className={style.squareContainer}>
-                    <h1 className={style.icon}>
-                        <CiEdit />
-                    </h1>
+                    <CiEdit className={style.icon} />
+
                     <h1 className={style.title}> Hobbies </h1>
                     <p className={style.text}>
                         Además de mi pasión por la tecnología y el futuro tecnológico, tengo un

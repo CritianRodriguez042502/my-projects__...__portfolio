@@ -22,7 +22,6 @@
 /*-----------------------------------*/
 /* Media screen mobile */
 .containerEducation {
-    scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,13 +36,13 @@
 }
 
 .squareContainer {
-    width: 100%;
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 10px;
-    margin: 0px 20px 30px 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition:
         color 0.3s,
         background 0.3s;
@@ -61,7 +60,7 @@
 }
 
 .text {
-    padding: 0px 10%;
+    padding: 0px 6%;
     font-size: var(--text-p);
 }
 
