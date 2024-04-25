@@ -16,7 +16,7 @@ export function Footer() {
                 </p>
 
                 <div>
-                    <a href="mailto:cristianestiven1111@gmail.com" target="_blank" rel="noreferrer">
+                    <a href="https://w.app/yIqJO6" target="_blank" rel="noreferrer">
                         <button className={style.buttonContact}>Contacto</button>
                     </a>
                 </div>
