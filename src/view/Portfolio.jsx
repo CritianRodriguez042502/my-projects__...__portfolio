@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { GridLoader } from 'react-spinners';
-import { AboutMe, Navbar, Footer, Skills,Education, Projects } from '../components/index.js';
+import { AboutMe, Navbar, Footer, Skills, Education, Projects } from '../components/index.js';
 
 export default function Portfolio() {
     const [view, setView] = useState('none');
