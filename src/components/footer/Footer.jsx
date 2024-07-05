@@ -16,7 +16,11 @@ export function Footer() {
                 </p>
 
                 <div>
-                    <a href="https://w.app/yIqJO6" target="_blank" rel="noreferrer">
+                    <a
+                        href="https://www.linkedin.com/in/rodriguezbenitez/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <button className={style.buttonContact}>Contacto</button>
                     </a>
                 </div>

@@ -70,10 +70,10 @@
 
 .projectButton {
     margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: var(--secondary-background-color);
+    padding: 7px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(145, 86, 223);
     cursor: pointer;
     color: white;
     border: none;
