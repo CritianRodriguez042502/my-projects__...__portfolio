@@ -1,51 +1,45 @@
 import { useState, useEffect } from 'react';
 import { GridLoader } from 'react-spinners';
+
+// Components
 import { AboutMe, Navbar, Footer, Skills, Education, Projects } from '../components/index.js';
 
+// Util
+import { activate } from '../utils/activate.js';
+
 export default function Portfolio() {
-    const [view, setView] = useState('none');
-    const [opacity, setOpacity] = useState(0);
+    const [showPortfolio, setShowPortfolio] = useState(false);
 
-    // Loader initial
     useEffect(() => {
+        activate();
+
         setTimeout(() => {
-            setView('initial');
-        }, 2000);
-    }, [view]);
+            setShowPortfolio(true);
+        }, 2500);
+    }, []);
 
-    useEffect(() => {
-        if (view === 'initial') {
-            setTimeout(() => {
-                setOpacity(1);
-            }, 150);
-        }
-    }, [view, opacity]);
-    console.log(import.meta.env.MODE);
-
-    return (
-        <main>
-            {view === 'initial' ? (
-                <aside style={{ opacity: opacity }}>
-                    <Navbar />
-                    <AboutMe />
-                    <Skills />
-                    <Education />
-                    <Projects />
-                    <Footer />
-                </aside>
-            ) : (
-                <div
-                    style={{
-                        width: '100%',
-                        height: '100vh',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                    }}
-                >
-                    <GridLoader size={27} color="#6E07F3" />
-                </div>
-            )}
-        </main>
+    return showPortfolio ? (
+        <>
+            <Navbar />
+            <AboutMe />
+            <Skills />
+            <Education />
+            <Projects />
+            <Footer />
+        </>
+    ) : (
+        <>
+            <div
+                style={{
+                    width: '100%',
+                    height: '100vh',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }}
+            >
+                <GridLoader size={27} color="#6E07F3" />
+            </div>
+        </>
     );
 }

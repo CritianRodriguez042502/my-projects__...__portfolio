@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
-
 :root {
     /* font size */
     --text-h1: 30px;
@@ -19,15 +17,12 @@
     --tertiary-background-color: #3498db;
 }
 
-/*-----------------------------------*/
 /* Media screen mobile */
-
 .containerAboutMe {
-    scroll-behavior: smooth;
-    margin-top: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 175px;
 }
 
 .imgCristian {
@@ -42,19 +37,15 @@
 }
 
 .name {
-    margin-top: 40px;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin: 40px 10px 12px 10px;
     text-align: center;
     font-size: var(--text-h1);
 }
 
 .description {
-    margin-top: -10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: var(--text-p);
     text-align: center;
+    margin: 0px 10px 0px 10px;
+    font-size: var(--text-p);
 }
 
 .imgDesktops {

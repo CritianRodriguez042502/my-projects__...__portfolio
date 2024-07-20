@@ -1,10 +1,10 @@
-import style from './style_projects.module.css';
-
 // Images
-import impactX from '../../assents/images/projects/impact-x.png';
-import bbc_news from '../../assents/images/projects/bbc-news.png';
-import calculator from '../../assents/images/projects/calculator.png';
-import rijksmuseum from '../../assents/images/projects/rijksmuseum.jpeg';
+import impactX from '@/assents/images/projects/impact-x.png';
+import bbc_news from '@/assents/images/projects/bbc-news.png';
+import calculator from '@/assents/images/projects/calculator.png';
+import rijksmuseum from '@/assents/images/projects/rijksmuseum.jpeg';
+
+import style from './style_projects.module.css';
 
 export function Projects() {
     return (

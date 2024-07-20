@@ -14,5 +14,10 @@ module.exports = {
     plugins: ['react-refresh'],
     rules: {
         'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+        'react/prop-types': 'warn',
+        'no-useless-escape': 'off',
+        'react-refresh/only-export-components': 'off',
+        'react/display-name': 'off',
+        'react-hooks/exhaustive-deps': 'off',
     },
 };

@@ -1,14 +1,14 @@
 import style from './style_skills.module.css';
 
 // Import images
-import html from '../../assents/images/skills/icon-html.png';
-import css from '../../assents/images/skills/icon-css.png';
-import js from '../../assents/images/skills/icon-js.png';
-import react from '../../assents/images/skills/icon-react.png';
-import git from '../../assents/images/skills/icon-git.png';
-import python from '../../assents/images/skills/icon-python.png';
-import django from '../../assents/images/skills/icon-django.jpg';
-import postgresql from '../../assents/images/skills/icon-postgresql.png';
+import html from '@/assents/images/skills/icon-html.png';
+import css from '@/assents/images/skills/icon-css.png';
+import js from '@/assents/images/skills/icon-js.png';
+import react from '@/assents/images/skills/icon-react.png';
+import git from '@/assents/images/skills/icon-git.png';
+import python from '@/assents/images/skills/icon-python.png';
+import django from '@/assents/images/skills/icon-django.jpg';
+import postgresql from '@/assents/images/skills/icon-postgresql.png';
 
 export function Skills() {
     return (

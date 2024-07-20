@@ -3,6 +3,7 @@ import { AiFillFacebook } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
+
 import style from './style_footer.module.css';
 
 export function Footer() {

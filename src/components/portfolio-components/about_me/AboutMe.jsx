@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import style from './style_about_me.module.css';
 
 // Image
-import me from '../../assents/images/about_me/me.png';
+import me from '@/assents/images/about_me/me.png';
+
+import style from './style_about_me.module.css';
 
 export function AboutMe() {
     const [apparence, setApparence] = useState({
@@ -41,10 +42,12 @@ export function AboutMe() {
         <main id="about_me">
             <section className={style.containerAboutMe}>
                 <img style={apparence} className={style.imgCristian} src={me} alt="img" />
+
                 <h1 className={style.name}>
                     <span style={{ color: 'rgb(110,7,243)', marginRight: '-8px' }}>F</span> rontend
                     and Backend Developer
                 </h1>
+
                 <p className={style.description}>
                     Diseño y codifico cosas maravillosamente simples y amo lo que hago.
                 </p>
