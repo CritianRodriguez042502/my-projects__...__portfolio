@@ -7,7 +7,7 @@ import { AboutMe, Navbar, Footer, Skills, Education, Projects } from '../compone
 // Util
 import { activate } from '../utils/activate.js';
 
-export default function Portfolio() {
+export const Portfolio = () => {
     const [showPortfolio, setShowPortfolio] = useState(false);
 
     useEffect(() => {
@@ -42,4 +42,4 @@ export default function Portfolio() {
             </div>
         </>
     );
-}
+};
