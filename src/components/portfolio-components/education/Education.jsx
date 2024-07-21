@@ -1,12 +1,12 @@
-import { CiRouter } from 'react-icons/ci';
-import { CiSettings } from 'react-icons/ci';
-import { CiEdit } from 'react-icons/ci';
+import { CiRouter, CiSettings, CiEdit } from 'react-icons/ci';
+
 import style from './style_education.module.css';
 
 export function Education() {
     return (
         <main id="education">
             <h1 className={style.parentTitlte}> Aptitudes </h1>
+
             <section className={style.containerEducation}>
                 <div className={style.squareContainer}>
                     <CiSettings className={style.icon} />
