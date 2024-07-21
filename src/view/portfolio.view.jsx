@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { GridLoader } from 'react-spinners';
 
 // Components
-import { AboutMe, Navbar, Footer, Skills, Education, Projects } from '../components/index.js';
+import { AboutMe, Navbar, Footer, Skills, Education, Projects } from '@/components/index.js';
 
 // Util
-import { activate } from '../utils/activate.js';
+import { activate } from '@/utils/activate.js';
 
-export default function Portfolio() {
+export const Portfolio = () => {
     const [showPortfolio, setShowPortfolio] = useState(false);
 
     useEffect(() => {
@@ -42,4 +42,4 @@ export default function Portfolio() {
             </div>
         </>
     );
-}
+};
