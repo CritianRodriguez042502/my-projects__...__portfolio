@@ -65,7 +65,7 @@ export function Projects() {
                                 <button className={style.projectButton}>Repositorio</button>
                             </a>
                             <a
-                                href="https://cristian-rodriguez-prevalent-ware.onrender.com"
+                                href="https://rijksmuseum-app.onrender.com"
                                 target="_blank"
                                 rel="noreferrer"
                             >
