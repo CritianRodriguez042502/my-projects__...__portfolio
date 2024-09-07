@@ -46,16 +46,16 @@ export function Navbar() {
                 >
                     <nav className={style.subMenu}>
                         <a onClick={navigate} className={style.subMenuLinks} href="#about_me">
-                            Sobre mi
+                            About me
                         </a>
                         <a onClick={navigate} className={style.subMenuLinks} href="#skills">
-                            Habilidades
+                            Skills
                         </a>
                         <a onClick={navigate} className={style.subMenuLinks} href="#projects">
-                            Proyectos
+                            Projects
                         </a>
                         <a onClick={navigate} className={style.subMenuLinks} href="#footer">
-                            Contacto
+                            Contact
                         </a>
                     </nav>
                 </Popup>
@@ -66,16 +66,16 @@ export function Navbar() {
 
                 <nav className={style.desktopNavItems}>
                     <a className={style.desktopNavItemsLinks} href="#about_me">
-                        Sobre mi
+                        About me
                     </a>
                     <a className={style.desktopNavItemsLinks} href="#skills">
-                        Habilidades
+                        Skills
                     </a>
                     <a className={style.desktopNavItemsLinks} href="#projects">
-                        Proyectos
+                        Projects
                     </a>
                     <a className={style.desktopNavItemsLinks} href="#footer">
-                        Contacto
+                        Contact
                     </a>
                 </nav>
             </section>

@@ -49,7 +49,7 @@ export function AboutMe() {
                 </h1>
 
                 <p className={style.description}>
-                    Diseño y codifico cosas maravillosamente simples y amo lo que hago.
+                    I design and code beautifully simple things and I love what I do.
                 </p>
 
                 <img
