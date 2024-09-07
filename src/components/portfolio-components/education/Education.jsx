@@ -5,30 +5,30 @@ import style from './style_education.module.css';
 export function Education() {
     return (
         <main id="education">
-            <h1 className={style.parentTitlte}> Aptitudes </h1>
+            <h1 className={style.parentTitlte}> Knowledge </h1>
 
             <section className={style.containerEducation}>
                 <div className={style.squareContainer}>
                     <CiSettings className={style.icon} />
 
-                    <h1 className={style.title}> Desarrollo web </h1>
+                    <h1 className={style.title}> Web development </h1>
                     <p className={style.text}>
-                        Con experiencia en desarrollo web usando Django y React, he creado
-                        aplicaciones web dinámicas y atractivas. Mi enfoque se centra en el diseño
-                        de páginas modernas, responsivas e interactivas. Ansío expandir mis
-                        habilidades y enfrentar nuevos desafíos en este campo.
+                        With experience in web development using Django and React, I have created
+                        dynamic and engaging web applications. My focus is on designing modern,
+                        responsive and interactive pages. I look forward to expanding my skills and
+                        taking on new challenges in this field.
                     </p>
                 </div>
 
                 <div className={style.squareContainer}>
                     <CiRouter className={style.icon} />
 
-                    <h1 className={style.title}> Educacion </h1>
+                    <h1 className={style.title}> Education </h1>
                     <p className={style.text}>
-                        Titulado como bachiller, actualmente estudio Ingeniería de Software en el
-                        reconocido SENA, adquiriendo sólidos conocimientos en desarrollo de
-                        aplicaciones, programación y gestión de proyectos. Emocionado por ampliar mi
-                        formación y aplicar habilidades en desafiantes proyectos.
+                        With a bachelor's degree, I am currently studying Software Engineering at
+                        the renowned SENA, acquiring solid knowledge in application development,
+                        programming and project management. Excited to expand my training and apply
+                        skills in challenging projects.
                     </p>
                 </div>
                 <div className={style.squareContainer}>
@@ -36,11 +36,10 @@ export function Education() {
 
                     <h1 className={style.title}> Hobbies </h1>
                     <p className={style.text}>
-                        Además de mi pasión por la tecnología y el futuro tecnológico, tengo un
-                        fuerte interés en aprender nuevas tecnologías y mantenerme al día con las
-                        últimas tendencias. Mi entusiasmo por explorar nuevos horizontes en el
-                        ámbito tecnológico me impulsa a seguir aprendiendo y desarrollándome
-                        constantemente.
+                        In addition to my passion for technology and the technological future, I
+                        have a strong interest in learning new technologies and keeping up with the
+                        latest trends. My enthusiasm for exploring new horizons in the technological
+                        field drives me to continue learning and developing constantly.
                     </p>
                 </div>
             </section>

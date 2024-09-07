@@ -10,10 +10,10 @@ export function Footer() {
     return (
         <main id="footer">
             <section className={style.containerContact}>
-                <h1> ¡Hablemos!</h1>
+                <h1> Let's talk! </h1>
                 <p>
-                    Contactame para iniciar tu proyecto de desarrollo web y hare que tu vision se
-                    vuelva realidad
+                    Contact me to start your web development project and I will make your vision
+                    come true.
                 </p>
 
                 <div>
@@ -22,7 +22,7 @@ export function Footer() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <button className={style.buttonContact}>Contacto</button>
+                        <button className={style.buttonContact}>Contact</button>
                     </a>
                 </div>
 
@@ -32,7 +32,7 @@ export function Footer() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <button className={style.buttonCv}>Mirar Cv</button>
+                        <button className={style.buttonCv}>View Cv</button>
                     </a>
                 </div>
             </section>
@@ -42,7 +42,7 @@ export function Footer() {
                     <CiMemoPad />
                 </h1>
                 <p>
-                    Aprendo todos los dias. <br /> ¿Que esperas? empezemos a trabajar juntos
+                    I learn every day. <br /> What are you waiting for? Let's start working together
                 </p>
                 <aside className={style.containerIcons}>
                     <a
@@ -78,7 +78,7 @@ export function Footer() {
                         <AiOutlineInstagram />
                     </a>
                 </aside>
-                <p className={style.creator}> Creado por Cristian Rodriguez 2023</p>
+                <p className={style.creator}> Create by Cristian Rodriguez 2023 - 2024</p>
             </section>
         </main>
     );

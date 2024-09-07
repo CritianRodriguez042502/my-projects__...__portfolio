@@ -16,11 +16,11 @@ export function Skills() {
             <aside className={style.containerOfMyPresentation}>
                 <h1 className={style.title}> Hello, I am Cristian Rodriguez </h1>
                 <p className={style.text}>
-                    Como desarrollador web, cuento con una sólida experiencia en la creación y
-                    mantenimiento de aplicaciones web. Mi experiencia abarca tanto el lado del
-                    cliente (frontend) como el lado del servidor (backend), manejo optimo de control
-                    de versiones con git y github, conocimientos y manejo basico del cloud con AWS.
-                    Esto me permite abordar proyectos de manera integral y optima.
+                    As a web developer, I have solid experience in creating and maintaining web
+                    applications. My experience covers both the client side (frontend) and the
+                    server side (backend), optimal management of version control with git and
+                    github, knowledge and basic management of the cloud with AWS. This allows me to
+                    approach projects in a comprehensive and optimal way.
                 </p>
             </aside>
 
