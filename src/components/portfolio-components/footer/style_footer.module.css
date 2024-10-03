@@ -56,6 +56,14 @@
         color 0.4s;
 }
 
+.containerContactAndCvButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .containerContact .buttonContact {
     border: 2px solid rgb(91, 233, 185);
     background-color: rgb(20, 28, 58);
@@ -69,8 +77,9 @@
 .containerContact .buttonCv {
     background: #333333;
     border: 2px solid white;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     padding: 10px 22px;
+    white-space: nowrap;
 }
 
 .containerContact .buttonCv:hover {
@@ -150,13 +159,17 @@
         padding-left: 20px;
     }
 
-    .containerContact button {
-        margin-right: 40px;
+    .containerContactAndCvButtons {
+        flex-direction: row;
     }
 
-    .containerContact .buttonCv {
+    /* .containerContact button {
+        margin-right: 40px;
+    } */
+
+    /* .containerContact .buttonCv {
         display: none;
-    }
+    } */
     /* ------------------ */
 
     /* Section Footer */

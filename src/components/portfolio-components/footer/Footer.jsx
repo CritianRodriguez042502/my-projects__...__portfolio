@@ -16,7 +16,7 @@ export function Footer() {
                     come true.
                 </p>
 
-                <div>
+                <div className={style.containerContactAndCvButtons}>
                     <a
                         href="https://www.linkedin.com/in/rodriguezbenitez/"
                         target="_blank"
@@ -24,9 +24,7 @@ export function Footer() {
                     >
                         <button className={style.buttonContact}>Contact</button>
                     </a>
-                </div>
 
-                <div>
                     <a
                         href="https://drive.google.com/file/d/13iXXgy4ZdzS-sT36e-sgmw2RFJMHVBpR/view"
                         target="_blank"
