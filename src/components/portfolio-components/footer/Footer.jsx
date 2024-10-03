@@ -10,7 +10,7 @@ export function Footer() {
     return (
         <main id="footer">
             <section className={style.containerContact}>
-                <h1> Let's talk! </h1>
+                <h1 style={{ whiteSpace: 'nowrap' }}> Let's talk! </h1>
                 <p>
                     Contact me to start your web development project and I will make your vision
                     come true.

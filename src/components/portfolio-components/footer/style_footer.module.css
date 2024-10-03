@@ -67,6 +67,8 @@
 .containerContact .buttonContact {
     border: 2px solid rgb(91, 233, 185);
     background-color: rgb(20, 28, 58);
+    width: 140px;
+    white-space: nowrap;
 }
 
 .containerContact .buttonContact:hover {
@@ -80,6 +82,7 @@
     /* margin-top: 15px; */
     padding: 10px 22px;
     white-space: nowrap;
+    width: 140px;
 }
 
 .containerContact .buttonCv:hover {
@@ -161,6 +164,7 @@
 
     .containerContactAndCvButtons {
         flex-direction: row;
+        margin-right: 25px;
     }
 
     /* .containerContact button {
