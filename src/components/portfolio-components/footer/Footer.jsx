@@ -26,7 +26,7 @@ export function Footer() {
                     </a>
 
                     <a
-                        href="https://drive.google.com/file/d/10Hwak9yPXnJbABfL7BUonmeBj3S1KtOl/view?usp=sharing"
+                        href="https://drive.google.com/file/d/10lr0kXWMuaeE6UGMWN5Gyark_fYvpWvv/view?pli=1"
                         target="_blank"
                         rel="noreferrer"
                     >
