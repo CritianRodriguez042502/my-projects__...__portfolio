@@ -64,7 +64,7 @@ export function Projects() {
                                 <button className={style.projectButton}> Git hub </button>
                             </a>
                             <a
-                                href="https://rijksmuseum-app.onrender.com"
+                                href="#"
                                 target="_blank"
                                 rel="noreferrer"
                             >
