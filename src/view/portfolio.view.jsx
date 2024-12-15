@@ -2,7 +2,15 @@ import { useState, useEffect } from 'react';
 import { GridLoader } from 'react-spinners';
 
 // Components
-import { AboutMe, Navbar, Footer, Skills, Education, Projects } from '@/components/index.js';
+import {
+    AboutMe,
+    Navbar,
+    Footer,
+    Skills,
+    Education,
+    Projects,
+    WorkExperience,
+} from '@/components/index.js';
 
 // Util
 import { activate } from '@/utils/activate.js';
@@ -23,6 +31,7 @@ export const Portfolio = () => {
             <Navbar />
             <AboutMe />
             <Skills />
+            <WorkExperience />
             <Education />
             <Projects />
             <Footer />

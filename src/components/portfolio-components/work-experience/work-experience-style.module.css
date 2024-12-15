@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+:root {
+    /* font size */
+    --text-h1: 30px;
+    --text-h2: 23px;
+    --text-p: 17px;
+
+    /* Color of letters*/
+    --text-color-on-primary-background: rgb(20, 28, 58);
+    --text-color-on-secondary-background: #ffffff;
+
+    /* font family titles */
+    --font-family-title: 'Kalam', cursive;
+
+    /* backgrounds */
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #333333;
+    --tertiary-background-color: #3498db;
+}
+
+/*-----------------------------------*/
+
+.initialContainer {
+    margin: 0px 45px;
+}
+
+.initialContainer h1 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: var(--text-h1);
+    color: rgb(20, 28, 58);
+}
+
+.workExperienceContainer {
+    position: relative;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    border-left: 2px solid gray;
+}
+
+.workExperienceContainer div[role='job'] {
+    width: 85%;
+}
+
+.workExperienceContainer div[role='job'] h3 {
+    font-size: 22px;
+    margin: 0px;
+}
+
+.workExperienceContainer div[role='job'] h4 {
+    font-size: 15px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.workExperienceContainer div[role='job'] p {
+    font-size: 14px;
+    margin: 3px 0px;
+}
+
+.workExperienceContainer div[role='description'] p {
+    font-size: 15px;
+}
+
+.workExperienceContainer .circule {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(110, 7, 243);
+    position: absolute;
+    top: 15px;
+    left: -7.5px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1400px) {
+    .initialContainer {
+        margin: 0px 170px;
+    }
+
+    .workExperienceContainer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-left: 30px;
+        border-left: 2px solid black;
+    }
+
+    .workExperienceContainer div[role='job'] {
+        width: 85%;
+    }
+}

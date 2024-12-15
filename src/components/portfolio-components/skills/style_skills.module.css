@@ -34,6 +34,7 @@
     text-decoration: underline;
     color: var(--text-color-on-secondary-background);
 }
+
 .text {
     font-size: var(--text-p);
     text-align: center;

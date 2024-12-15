@@ -11,7 +11,7 @@ export function Projects() {
         <main id="projects">
             <section className={style.container}>
                 <aside className={style.containerTitle}>
-                    <h1> My Projects </h1>
+                    <h1> Personal projects </h1>
                 </aside>
                 <aside className={style.containerProjects}>
                     <article className={style.containerItem}>
